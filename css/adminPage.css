@@ -26,7 +26,8 @@
 .admin__add:hover {
 	background-color: #f8bd0e;
 }
-.admin__items {
+.admin__items:not(:last-child) {
+	margin-bottom: 25px;
 }
 .admin-items {
 }
@@ -38,6 +39,7 @@
 	align-items: center;
 	row-gap: 10px;
 	border-radius: 18px;
+	overflow: hidden;
 }
 .admin-items__image-ibg {
 	width: 100%;

@@ -1,5 +1,84 @@
 @import "./null.css";
 
+.header {
+	background-color: #ddd;
+	padding: 15px 0;
+	margin-bottom: 45px;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	font-weight: bold;
+	color: #ffad4c;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.menu__list {
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu__link:hover {
+	text-decoration: underline;
+}
+
+.header__search {
+	display: flex;
+	background-color: white;
+	margin-right: 0px;
+	color: black;
+	border-radius: 20px;
+	padding: 10px 15px;
+	justify-content: space-between;
+}
+
+.header__search input {
+	color: black;
+	border-radius: 15px;
+	padding: 0px 15px 0px 0px;
+}
+
+.header__search img {
+	width: 25px;
+	height: 25px;
+}
+
+@media screen and (max-width: 783px) {
+	.menu__list {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 437px) {
+	.header__container {
+		flex-direction: column;
+	}
+	.header__logo {
+		font-size: 50px;
+	}
+	.header__search {
+		width: 106%;
+		padding-left: 40px;
+		margin-top: 20px;
+	}
+}
+
+/* ========================== */
+
+.notebooks {
+	padding-top: 150px;
+}
 .cart__item {
 	background-color: #bebebe;
 	display: flex;

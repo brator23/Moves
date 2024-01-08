@@ -103,9 +103,11 @@ section:not(:last-child) {
 	font-weight: 600;
 	text-align: left;
 	margin-bottom: 15px;
+	text-align: center;
 }
 .list {
 	display: grid;
+	justify-content: space-around;
 	gap: 25px;
-	grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
+	grid-template-columns: repeat(auto-fit, minmax(30px, 400px));
 }

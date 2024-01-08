@@ -2,11 +2,42 @@
   "notebooks": [
     {
       "name": "тетрадь",
-      "subTitle": "ыва",
-      "photo": "https://www.carenews.com/sites/default/files/styles/large_actualites/public/articles/2438685877aa65f868a9f4db8bcf493478025101_0.png?itok=oyvdKSDD",
+      "subTitle": "flooiiji",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqgmsruuAm8PyNgqImOGRsPTETxJchpLu3kQ&usqp=CAU",
       "id": 1
+    },
+    {
+      "name": "тетрадь ",
+      "subTitle": "фывфывфы",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4FfFXhGxla5syLCaTy1rrwoyflQ_xIlQNfw&usqp=CAU",
+      "id": 2
+    },
+    {
+      "name": "ываыва",
+      "subTitle": "тетрадь",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4FfFXhGxla5syLCaTy1rrwoyflQ_xIlQNfw&usqp=CAU",
+      "id": 3
+    },
+    {
+      "name": "выаыва",
+      "subTitle": "тетрадь",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4FfFXhGxla5syLCaTy1rrwoyflQ_xIlQNfw&usqp=CAU",
+      "id": 4
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "name": "книга gfdfg",
+      "subTitle": "ввvcbvcvb",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKTWEcyWM124uB3Mw3lpp__Mzv9JLAuWMsXQ&usqp=CAU",
+      "id": 1
+    },
+    {
+      "name": "книга",
+      "subTitle": "ываываыва",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4FfFXhGxla5syLCaTy1rrwoyflQ_xIlQNfw&usqp=CAU",
+      "id": 2
+    }
+  ],
   "trifle": []
 }
