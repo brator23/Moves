@@ -1,0 +1,158 @@
+@import "./null.css";
+
+.admin {
+	padding-bottom: 30px;
+}
+.admin__top {
+	padding: 15px 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ddd;
+	margin-bottom: 35px;
+}
+.admin__add {
+	background-color: #e2b11eb2;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 15px 25px;
+	text-align: center;
+	border-radius: 18px;
+	font-size: 25px;
+	transition: all 0.3s;
+}
+.admin__add:hover {
+	background-color: #f8bd0e;
+}
+.admin__items {
+}
+.admin-items {
+}
+.admin-items__item {
+	background-color: #bebebe;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 10px;
+	border-radius: 18px;
+}
+.admin-items__image-ibg {
+	width: 100%;
+	padding-bottom: 350px;
+	margin-bottom: 15px;
+}
+.admin-items__image-ibg img {
+	border-radius: 18px;
+	max-width: 100%;
+}
+.admin-items__title {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.admin-items__sub-title {
+	font-size: 25px;
+}
+.admin-button {
+	background-color: #e2b11eb2;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 15px 25px;
+	width: 100%;
+	text-align: center;
+	border-radius: 18px;
+	font-size: 25px;
+	transition: all 0.3s;
+}
+.admin-button:hover {
+	background-color: #f8bd0e;
+}
+/* ======================= */
+.add {
+	display: none;
+}
+.add {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #b8b9b9;
+	padding: 25px 45px;
+	border-radius: 25px;
+	display: none;
+}
+
+.add__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.add__container input {
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 20px;
+}
+#addButton {
+	border-radius: 15px;
+	background-color: #e2b11eb2;
+	color: #ffffff;
+	padding: 15px 25px;
+	cursor: pointer;
+	transition: all 0.5s;
+	text-transform: uppercase;
+	font-weight: 600;
+	width: 100%;
+	overflow: hidden;
+}
+#addButton:hover {
+	background-color: #f8bd0e;
+}
+/* ======================= */
+.update {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #b8b9b9;
+	padding: 25px 45px;
+	border-radius: 25px;
+	display: none;
+}
+
+.update__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.update__container input {
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 20px;
+}
+.updateButton {
+	border-radius: 15px;
+	background-color: #e2b11eb2;
+	color: #ffffff;
+	padding: 15px 25px;
+	cursor: pointer;
+	transition: all 0.5s;
+	text-transform: uppercase;
+	font-weight: 600;
+	width: 100%;
+}
+.updateButton:hover {
+	background-color: #f8bd0e;
+}
+
+#close-image,
+#close-update {
+	cursor: pointer;
+}

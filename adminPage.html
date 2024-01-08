@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/adminPage.css">
+		<title>ADMINKA</title>
+	</head>
+	<body>
+		<div class="admin">
+			<div class="admin__top">
+				<button type="button" class="admin__add">Добавить</button>
+			</div>
+			<div class="admin__container">
+				<ul class="admin__items admin-items list">
+					<!-- <li class="admin-items__item">
+						<div class="admin-items__image-ibg"><img src="https://rgo.ru/upload/content_block/images/9ca8302358b777e143cd6e314058266b/7065323d0aa2e3fa6e8764c4f57f1655.jpg?itok=sawvdjq3" alt></div>
+						<div class="admin-items__title">FFFFFfffff</div>
+						<div class="admin-items__sub-title">dfdfdffff</div>
+						<button class="admin-items__delete admin-button">Удалить</button>
+						<button class="admin-items__edit admin-button">Изменить</button>
+					</li> -->
+				</ul>
+			</div>
+		</div>
+		<form class="add">
+			<img src="./img/close.png" alt="close" id="close-image">
+			<div class="add__container">
+				<input type="text" id="name" placeholder="name">
+				<input type="text" id="subTitle" placeholder="sub-title">
+				<input type="text" id="image" placeholder="image">
+			</div>
+			<button id="addButton">Добавить</button>
+		</form>
+		<form class="update">
+			<img src="./img/close.png" alt="close" id="close-update">
+			<div class="update__container">
+				<input type="text" id="updateName" placeholder="name">
+				<input type="text" id="updateSubTitle" placeholder="sub-title">
+				<input type="text" id="updateImage" placeholder="image">
+			</div>
+			<button class="updateButton">Обновить</button>
+		</form>
+		<script src="./js/admin.js"></script>
+	</body>
+</html>
