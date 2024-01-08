@@ -7,6 +7,42 @@
 		<title>MOVIES</title>
 	</head>
 	<body>
-
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">Iska</div>
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#notes-title" class="menu__link">Тетради</a></li>
+						<li class="menu__item"><a href="#books-title" class="menu__link">Книги</a></li>
+						<li class="menu__item"><a href="#trifle-title" class="menu__link">Канцелярия</a></li>
+					</ul>
+				</nav>
+				<form class="header__search">
+					<input type="text">
+					<img src="./img/search.svg" alt>
+				</form>
+			</div>
+		</header>
+		<main>
+			<section class="notebooks">
+				<div class="notebooks__container">
+					<div class="notebooks__title title" id="notes-title">Тетради</div>
+					<ul class="notebooks__list list"></ul>
+				</div>
+			</section>
+			<section class="books">
+				<div class="books__container">
+					<div class="books__title title" id="books-title">Книги</div>
+					<ul class="books__list list"></ul>
+				</div>
+			</section>
+			<section class="trifle">
+				<div class="trifle__container">
+					<div class="trifle__title title" id="trifle-title">Канцелярия</div>
+					<ul class="trifle__list list"></ul>
+				</div>
+			</section>
+		</main>
+		<script src="./js/script.js"></script>
 	</body>
 </html>

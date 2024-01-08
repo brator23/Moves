@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/adminPage.css">
+		<title>ADMINKA</title>
+	</head>
+	<body>
+		<div class="admin">
+			<div class="admin__top">
+				<button type="button" class="admin__add">Добавить</button>
+			</div>
+			<div class="admin__container">
+				<ul class="admin__items admin-items notes list"></ul>
+				<ul class="admin__items admin-items books list"></ul>
+				<ul class="admin__items admin-items trifle list"></ul>
+			</div>
+		</div>
+		<form class="add">
+			<img src="./img/close.png" alt="close" id="close-image">
+			<div class="add__container">
+				<input autocomplete="off" type="text" id="name" placeholder="name">
+				<input autocomplete="off" type="text" id="subTitle" placeholder="sub-title">
+				<input autocomplete="off" type="text" id="image" placeholder="image">
+			</div>
+			<button id="addButton">Добавить</button>
+		</form>
+		<form class="update">
+			<img src="./img/close.png" alt="close" id="close-update">
+			<div class="update__container">
+				<input autocomplete="off" type="text" id="updateName" placeholder="name">
+				<input autocomplete="off" type="text" id="updateSubTitle" placeholder="sub-title">
+				<input autocomplete="off" type="text" id="updateImage" placeholder="image">
+			</div>
+			<button class="updateButton">Обновить</button>
+		</form>
+		<script src="./js/admin.js"></script>
+	</body>
+</html>
